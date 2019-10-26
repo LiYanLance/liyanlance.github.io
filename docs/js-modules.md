@@ -1,3 +1,5 @@
+# JS 模块化
+
 刚接触前端的时候, 看到AMD, CommonJS, module.export, import, require 这些东西, 是真的头大.
 为什么会有这些东西出现呢, 都是什么玩意?
 

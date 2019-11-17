@@ -5,6 +5,8 @@
 ### Frontend
 
 1. [JS 模块化](https://liyanlance.github.io/docs/js-modules)
+2. [JS 原型(未完成)](https://liyanlance.github.io/docs/js-prototype)
+3. [Styled Component](https://liyanlance.github.io/docs/styled-components)
 
 
 ### Test

@@ -239,7 +239,8 @@ const Button = styled.button`
 `
 
 const theme = {
-  main: "red"
+  main: "red",
+  dark: "grey"
 }
 
 render(
@@ -252,15 +253,15 @@ render(
 
 theme 的定义还可以是个 function, 入参是外层 themeProvider 的 theme
 ```js
-const darkTheme  = ({red} => {
-  main: "grey"
+const darkTheme  = ({dark}) => ({
+  main: dark
 })
 
 
 render(
   <ThemeProvider theme={theme}>
     <ThemeProvider theme={darkTheme}>
-      <Button>Inverted Theme</Button>
+      <Button>Dark Theme</Button>
     </ThemeProvider>
   </ThemeProvider>
 )

@@ -194,9 +194,9 @@ expect.addSnapshotSerializer({
 
 
 3. 使用有意义的 snapshot 名字
+
 ```js
 exports[`<UserName /> should handle some test case`] = `null`
-
 exports[`<UserName /> should render null`] = `null`
 ```
 Tip: 如果一个 test case 中有多个 snapshot 测试, 可以使用 `toMatchSnapshot("some name")` 为每个 snapshot 传入更为具体的 name.
@@ -224,14 +224,14 @@ Snapshot 的数据时序列化后存储在文本文件中的, 用字符串 diff
 
 ## 资料
 ### 完整的测试代码
-[Snapshot & extend](https://github.com/LiYanLance/hello-jest/blob/master/test/matchers/10_snapshot.test.js)
+[Snapshot & extend](https://github.com/LiYanLance/hello-jest/blob/master/test/matchers/10_snapshot.test.js)  
 [Snapshot with react & serializer](https://github.com/LiYanLance/hello-jest/tree/master/test/with_react)
 
 
 ### 参考资料
-https://jestjs.io/docs/en/snapshot-testing#snapshot-testing-with-jest
-https://jestjs.io/docs/en/expect#custom-snapshot-matchers
-https://jestjs.io/docs/en/expect#expectaddsnapshotserializerserializer
-https://www.youtube.com/watch?v=sCbGfi40IWk
-https://www.youtube.com/watch?v=HAuXJVI_bUs
-https://jestjs.io/blog/2016/07/27/jest-14.html#why-snapshot-testing
+https://jestjs.io/docs/en/snapshot-testing#snapshot-testing-with-jest  
+https://jestjs.io/docs/en/expect#custom-snapshot-matchers  
+https://jestjs.io/docs/en/expect#expectaddsnapshotserializerserializer  
+https://www.youtube.com/watch?v=sCbGfi40IWk  
+https://www.youtube.com/watch?v=HAuXJVI_bUs  
+https://jestjs.io/blog/2016/07/27/jest-14.html#why-snapshot-testing  

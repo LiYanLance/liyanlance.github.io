@@ -12,3 +12,4 @@
 ### Test
 
 1. [Test doubles](https://liyanlance.github.io/docs/test-doubles)
+2. [Jest Snapshot](https://liyanlance.github.io/docs/jest-snapshot)

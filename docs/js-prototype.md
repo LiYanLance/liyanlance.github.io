@@ -169,11 +169,11 @@ function Cat(age) { this.age = age; }
 
 Cat.prototype = "dummy"
 const cat = new Cat()
-cat.consturctor === Cat // false
+cat.constructor === Cat // false
 ```
 因为原型上的 prototype 已经变化了. 
 
-当使用 new 关键字来调用的时候, 其实被构造出来的是函数上 prototype 属性中 consturctor的新对象. 同时把 this 指针指向这个对象.
+当使用 new 关键字来调用的时候, 其实被构造出来的是函数上 prototype 属性中 constructor的新对象. 同时把 this 指针指向这个对象.
 
 #### new 如果是 function
 如果 new 关键字是一个方法, 那它的实现或许是这样:

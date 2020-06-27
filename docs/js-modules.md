@@ -73,8 +73,8 @@ count.invokeCount() // 3
 
 ### 模块扩展
 
-一点小需求, 如果我要输出调用的次数, 以及每次调用的时间, 该怎么办呢?
-option 1 : 重新写一个 module.
+一点小需求, 如果我要输出调用的次数, 以及每次调用的时间, 该怎么办呢?  
+option 1 : 重新写一个 module.  
 option 2 : 扩展一下上面那个.
 
 这里就不对比了, 我们直接选2.
@@ -159,8 +159,10 @@ define("superCount", ["count"], (count) => {
 最好还是一个 module 放在一个文件.
 
 文件中像平常一样写自己的 JS 代码, 完全不用考虑全局污染这些问题.
-依赖的 moduel, 使用 require 引入.
+依赖的 module, 使用 require 引入.
 只要在最后, 把 return 的对象内容, 写到 module.exports 中就可以了.
+
+引用关键字 `require`, 导出关键字 `module.exports`
 
 ```js
 const count = require("./countModule.js")
@@ -204,7 +206,7 @@ CommonJS 不显示的支持浏览器, 因为浏览器不支持 module 变量和 
 我们必须用浏览器支持的打包方式, Bowserify/RequireJS.
 
 
-### ES6
+### ES Module
 
 取两者所长
 AMD: 异步加载模块
@@ -238,6 +240,8 @@ export function invoke() {...}
 ```js
 import { invoke } from "./superCount.js
 ```
+
+ESM 看着挺美好的, 但是直到今天, Node 还不支持, 想要在在项目中使用的话, 还是要靠一些工具.
 
 今天就到这里了.
 

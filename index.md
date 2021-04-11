@@ -11,8 +11,8 @@
 
 ### Slides
 1. [GraphQL](https://slides.com/liyanlance/graphql/fullscreen)
-2. [性能优化](https://slides.com/liyanlance/web-performance/fullscreen)
-3. [ElasticSearch](https://slides.com/liyanlance/elasticsearch/fullscreen)
+2. [ElasticSearch](https://slides.com/liyanlance/elasticsearch/fullscreen)
+3. [前端性能优化](https://slides.com/liyanlance/web-performance/fullscreen)
 
 ### Code
 1. [Jest](https://github.com/LiYanLance/hello-jest)

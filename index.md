@@ -2,11 +2,14 @@
 
 这里是我自己在学习路上的一点记录, 如果有幸被你看到了, 就一起加油吧. ✊
 
-### Frontend
+### Dev
 
 1. [JS 模块化](https://liyanlance.github.io/docs/js-modules)
 2. [JS 原型](https://liyanlance.github.io/docs/js-prototype)
 3. [Styled Component](https://liyanlance.github.io/docs/styled-components)
+4. [GraphQL](https://slides.com/liyanlance/graphql/fullscreen)
+5. [性能优化](https://slides.com/liyanlance/web-performance/fullscreen)
+6. [ElasticSearch](https://slides.com/liyanlance/elasticsearch/fullscreen)
 
 
 ### Test

@@ -17,3 +17,6 @@
 ### Code
 1. [Jest](https://github.com/LiYanLance/hello-jest)
 2. [Super Tiny Compiler](https://github.com/LiYanLance/super-tiny-compiler)
+
+### Translation
+1. [React 应用状态管理](https://github.com/LiYanLance/react-state-management)

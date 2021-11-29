@@ -19,4 +19,4 @@
 2. [Super Tiny Compiler](https://github.com/LiYanLance/super-tiny-compiler)
 
 ### Translation
-1. [React 应用状态管理](https://github.com/LiYanLance/react-state-management)
+1. [React 应用状态管理](https://liyanlance.github.io/docs/react-state-management)

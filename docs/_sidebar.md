@@ -3,9 +3,7 @@
   - [JS 原型](/frontend/js-prototype)
   - [Styled Component](/frontend/styled-components)
   - [React 状态管理](/frontend/react-state-management)
-  - [Web 性能优化](/frontend/web-performance)
-- [Tests]()
+- Tests
   - [Test doubles](/tests/test-doubles)
   - [React & Jest](/tests/react-jest)
   - [Jest Snapshot](/tests/jest-snapshot)
-- [Cryptocurrency]()

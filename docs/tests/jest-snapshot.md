@@ -102,14 +102,15 @@ expect(wrapper).toMatchSnapshot()
 扩展 expect 方法, 增加自定义的 snapshot 方法.
 
 e.g. 不想在 snapshot 中显示 className, 可以在调用 jest 的 snapshot 前, 删除 className, 再用这个结果 match snapshot.
+
 ```js
-const { toMatchSnapshot } = require("jest-snapshot")
-    
+const {toMatchSnapshot} = require("docs/tests/jest-snapshot")
+
 expect.extend({
-  toMatchNonClassSnapshot(received) {
-    delete received.props.className
-    return toMatchSnapshot.call(this, received, 'toMatchNonClassSnapshot')
-  }
+    toMatchNonClassSnapshot(received) {
+        delete received.props.className
+        return toMatchSnapshot.call(this, received, 'toMatchNonClassSnapshot')
+    }
 })
 
 expect(shallow(<SomeComponent/>)).toMatchNonClassSnapshot()
@@ -162,7 +163,7 @@ expect.addSnapshotSerializer({
 ## Good stuff
 1. Better coverage - 不用为了测一个 button 写一堆测试
 2. Easy to write - 只需 `expect.toMatchSnapshot()`
-3. Easy to update - jest -u
+3. Easy to update - `jest -u`
 4. Greate for refactoring - UI 变动的保证
 
 ## Bad things

@@ -10,7 +10,7 @@ interface Authorizer {
 ```
 
 
-### Dummy
+## Dummy
 
 如果被测对象依赖 Authorizer, 但这个 test 中并不关心 Authorizer 的行为和结果(函数和返回值)
 比如你必须要传入 Authorizer 的实例来构造被测对象, 但是这个实例并 **不会在测试中被使用**. 
@@ -50,7 +50,7 @@ public void newlyCreatedSystem_hasNoLoggedInUsers() {
 因为 **Dummy 并不该被真正的使用**.
 
 
-#### Dummy 是 mock 吗? 
+### Dummy 是 mock 吗?
 
 不严谨的回答, 是的.
 mock 这个词, 在日常语境中, 被用于代指各种各样要用于测试的 object.
@@ -63,7 +63,7 @@ Test Doubles 来自于 Stunt double (特技替身).
 
 在究竟看什么是 mock 之前, 先看一点其他东西
 
-### Stub
+## Stub
 
 ```java
 public class AcceptingAuthorizerStub implements Authorizer {
@@ -108,7 +108,7 @@ spy 用来**监视 caller**. 能够**记录**各种各样的**信息**. 比如�
 
 这会让你的测试非常脆弱, 一些不该导致测试 failed 的代码改动, 也可能会让测试挂掉.
 
-### Mock
+## Mock
 
 真正的 mock
 ```java
@@ -134,7 +134,7 @@ Mock 测试的是**行为**.
 
 mock 是特殊的 spy.
 
-### Fakes
+## Fakes
 
 最后一种
 
@@ -161,5 +161,5 @@ Dummy 永远不会被 被测对象使用 (返回无意义的东西)
 Fake 带业务逻辑, 其他各种 test doubles 都不带.
 
 
-#### 深入阅读 
+### 深入阅读
 [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)

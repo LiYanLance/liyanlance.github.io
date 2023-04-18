@@ -198,7 +198,7 @@ function CountPage() {
 
 这个方法的好处在于我们可以把所有常用来更新状态的逻辑都放在 `useCount` hook 中。
 
-```js
+```jsx
 function useCount() {
   const context = React.useContext(CountContext)
   if (!context) {
@@ -217,7 +217,7 @@ function useCount() {
 
 你也可以很容易地把 `useState` 使用 `useReducer` 替换。
 
-```js
+```jsx
 function countReducer(state, action) {
   switch (action.type) {
     case 'INCREMENT': {

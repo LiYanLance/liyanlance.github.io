@@ -1,0 +1,22 @@
+{
+  "name": "liyanlance.github.io",
+  "version": "1.0.0",
+  "description": "Get my notes in [https://liyanlance.github.io/](https://liyanlance.github.io/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiYanLance/liyanlance.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiYanLance/liyanlance.github.io/issues"
+  },
+  "homepage": "https://github.com/LiYanLance/liyanlance.github.io#readme"
+}
